@@ -1,0 +1,41 @@
+ul{
+
+list-style-type: none;
+padding: 15px 25px;
+border-left: 5px;
+background-color: green;
+color: black;
+font-size: 20px;
+}
+
+
+ul li{
+
+list-style-type: none;
+ padding: 8px;
+border: 1px solid grey;
+
+}
+ol{
+
+    list-style-type: upper-roman;
+    background: blue;
+}
+
+ol li{
+
+
+list-style-type: upper-roman;
+padding: 10px;
+margin-left: 0px;
+background: azure;
+
+
+}
+
+
+td, th{
+
+    border: 1px solid black;
+    padding: 10px;
+}
