@@ -54,7 +54,37 @@ background-color: aqua;
 }
 
 
-a{
+#Link:hover{
 
-    background: blue;
+    background: rgb(66, 155, 190);
+}
+
+nav a{
+
+padding: 20px;
+margin: 20px;
+}
+
+nav{
+
+padding: 20px;
+background-color: rgb(211, 200, 141);
+
+}
+
+nav a:hover{
+
+
+    background-color: rgb(122, 167, 9);
+}
+
+nav a:active{
+
+ background-color: aqua;
+}
+
+nav  a:active:visited{
+
+
+    color: yellow;
 }
