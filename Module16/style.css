@@ -25,3 +25,67 @@ text-align: center;
 
 
 }
+
+
+.sprite{
+background: url(image/image\ \(2\).png);
+
+}
+
+.engineers{
+
+width: 500px;
+height: 500px;
+display: inline-block;
+background-position: 0% 0;
+}
+
+
+.hipsters{
+width: 500px;
+height: 500px;
+display: inline-block;
+background-position: -500px 0px ;
+
+}
+.shadows{
+width: 500px;
+height: 500px;
+display: inline-block;
+background-position: 0 -500px ;
+
+}
+
+
+.speedsters{
+width: 500px;
+height: 500px;
+display: inline-block;
+background-position: -500px -500px ;
+
+
+}
+
+
+
+
+p[class*="ds"]{
+
+background-color: blue;
+color: white;
+padding: 20px;
+}
+
+
+
+
+div[class~="ds"]{
+
+background-color: aqua;
+color: white;
+padding: 20px;
+}
+
+input[placeholder$="Name"]{
+    border: 2px solid red;
+}
