@@ -97,3 +97,48 @@ height: 50px;
 align-self: flex-end;
 
 }
+
+
+
+/* align-items: stretch, flex-start, flex-end, center */
+
+.container5{
+display: flex;
+background-color: blue;
+flex-direction: row;
+height: 200px;
+align-items: stretch;
+
+
+}
+
+.container5 div{
+ margin: 10px;
+ padding: 20px;
+background-color: white;
+font-size: 35px;
+
+
+}
+
+/*align-content: flex-start, flex-end, center, space-between, space-around, stretch */
+
+
+.container6{
+
+display: flex;
+background-color: rgb(173, 135, 135);
+flex-direction: row;
+height: 800px;
+align-items: space-between;
+flex-wrap: wrap;
+
+}
+.container6 div{
+margin: 10px;
+ padding: 20px;
+background-color: white;
+font-size: 35px;
+width: 400px;
+height: 200px;
+}
