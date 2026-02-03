@@ -1,8 +1,8 @@
 :root{
 
---bg: #080101;
+--bg: #03040f;
  
---bg-2: #0f172a;
+--bg-2: #05112c;
 --border: #223044;
 --text: #e5e7eb;
 --text2: #a3b0c2;
@@ -65,20 +65,112 @@ border-radius: 20px;
 }
 
 
+.hero{
+
+text-align: center;
+padding: 70px;
+background: linear-gradient(180deg,var(--bg) var(--bg-2)) ;
+}
+
+#hero_title{
+
+font-size: 40px;
+margin: 15px;
+
+
+}
+
+
+#hero_p{
+
+font-size: 20px;
+color: var(--text2);
+
+}
+
+#hero_image{
+
+margin: 0 50px;
+
+}
+
+
+.container{
+
+display: flex;
+flex-direction: row;
+justify-content: center;
+gap: 50px;
+margin: 30px;
+text-align: center;
+}
+
+.stat_value{
+
+font-size: 20px;
+font-weight: bold;
+}
+
+
+.stat_label{
+    color: var(--text);
+}
+
+
+.stats{
+    border: 1px solid var(--border);
+    padding: 20px;
+    border-radius: 10px;
+    width: 150px;
+}
+
+
+
+#bestsellers_title{
+
+font-size: 50px;
+color: var(--text);
+text-align: center;
+
+}
+
+
+.product-grid{
+display: flex;
+flex-direction: row;
+justify-content: space-between;
+gap: 20px;
+padding: 20px;
+}
+
+
+.product-grid img{
+
+width: 250px;
+height: 250px;
+
+}
+
+.product-card{
+
+    border: 2px solid var(--border);
+    background: #111c33;
+    padding: 30px;
+    border-radius: 20px;
+    text-align: center;
+}
 
 
 
 
 
 
+.product-card button{
 
-
-
-
-
-
-
-
-
+font-size: 15px;
+padding: 5px 10px;
+color: black;
+background: #0ea5e9;
+}
 
 
