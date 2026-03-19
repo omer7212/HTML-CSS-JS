@@ -1,0 +1,9 @@
+.paragrafi{
+font-size: 45px;
+color: green;
+border: 2px solid lawngreen;
+padding: 20px;
+transition: 1s ease;
+
+
+}

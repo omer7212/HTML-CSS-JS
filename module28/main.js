@@ -60,6 +60,34 @@ v_button.onclick = function(){
 
 
     v_text.style.color ='red'
+    v_text.style.backgroundColor = 'lightgrey'
+    v_text.style.fontSize = '100px'
+    v_text.style.padding = '20px'
+    v_text.style. textAlign = 'center'
+}
 
+
+
+var button1 = document.getElementById('btn7')
+var teksti = document.getElementById('txt2')
+
+
+button1.onclick = function(){
+
+teksti.style.cssText = " color:red; background-color:green; text-Align:center; font-size:25px; font-family:fantasy;       "
+
+
+
+}
+
+
+var ifundit = document.getElementById('ifundit')
+var pg = document.getElementById('pg')
+
+
+ifundit.onclick = function(){
+
+
+pg.setAttribute("class","paragrafi")
 
 }
